@@ -3,7 +3,7 @@ from diffusers import StableDiffusionPipeline
 import torch
 
 st.set_page_config(page_title="Text to Image Generator")
-st.title("🖼️ Text → Image Generator (Local Model)")
+st.title("🖼️ Text → Image Generator")
 
 @st.cache_resource
 def load_model():
